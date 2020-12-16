@@ -2508,6 +2508,31 @@ input, select, textarea {
 				background-color: #eb341c !important;
 			}
 
+		button.secondary,
+		.button.secondary {
+			background-color: #ffffff00;
+			box-shadow: none !important;
+			color: #000000 !important;
+			border: #000000;
+			border-radius: 8px;
+			border-width: 2px;
+			border-style: solid;
+			width: 1024px;
+		}
+
+		button.city,
+		.button.city {
+			background-color: #ffffff00;
+			box-shadow: none !important;
+			color: #000000 !important;
+			border: #000000;
+			border-radius: 30px;
+			border-width: 2px;
+			border-style: solid;
+			width: auto;
+		}
+
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
