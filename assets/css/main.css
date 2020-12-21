@@ -2529,6 +2529,18 @@ input, select, textarea {
 			border-radius: 30px;
 			border-width: 2px;
 			border-style: solid;
+			width: 138px;
+		}
+		
+		button.newnangroup,
+		.button.newnangroup {
+			background-color: #000000;
+			box-shadow: none !important;
+			color: #ffffff !important;
+			border: #000000;
+			border-radius: 30px;
+			border-width: 2px;
+			border-style: solid;
 			width: auto;
 		}
 
