@@ -2529,7 +2529,7 @@ input, select, textarea {
 			border-radius: 30px;
 			border-width: 2px;
 			border-style: solid;
-			width: 138px;
+			width: auto;
 		}
 		
 		button.newnangroup,
