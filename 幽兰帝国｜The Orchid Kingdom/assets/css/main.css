@@ -3150,6 +3150,10 @@ input, select, textarea {
 			border-color: #39c088;
 		}
 
+		.spotlight.style4 .content {
+			border-color: #ffa500;
+		}
+
 		.spotlight.inactive .content {
 			opacity: 0;
 		}
