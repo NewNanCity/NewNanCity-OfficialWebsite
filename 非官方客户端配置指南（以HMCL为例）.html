@@ -6,154 +6,156 @@
 -->
 <html>
 
-    <head>
-        <title>非官方客户端配置指南（以HMCL为例）- 牛腩小镇｜NewNan City</title>
-        <link rel="icon" type="image/png" href="images/newnan-web-logo.png" />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <noscript>
-            <link rel="stylesheet" href="assets/css/noscript.css" />
-        </noscript>
-        <style>
-            #main>header {
-                padding: 15em 0 20em 0;
-                background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
-                background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
-                background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
-                background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
-                background-attachment: fixed;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                text-align: center;
-            }
+<head>
+    <title>非官方客户端配置指南（以HMCL为例）- 牛腩小镇｜NewNan City</title>
+    <link rel="icon" type="image/png" href="images/newnan-web-logo.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <style>
+        #main>header {
+            padding: 15em 0 20em 0;
+            background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
+            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
+            background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
+            background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hmcl-background.jpg");
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
 
-            .text-align-center {
-                text-align: center;
-                margin: 5px auto;
-            }
+        .text-align-center {
+            text-align: center;
+            margin: 5px auto;
+        }
 
-            .center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 64%;
-            }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 64%;
+        }
 
-            ul {
-                margin: 0;
-            }
+        ul {
+            margin: 0;
+        }
 
-            blockquote {
-                margin: 5px;
-            }
+        blockquote {
+            margin: 5px;
+        }
 
-            blockquote p {
-                padding: 5px;
-                margin: 5px auto;
-                background: #ffffff;
-                border-radius: 5px;
-            }
+        blockquote p {
+            padding: 5px;
+            margin: 5px auto;
+            background: #ffffff;
+            border-radius: 5px;
+        }
 
-            .button.primary {
-                background-color: #ed4933;
-                box-shadow: none !important;
-                color: #ffffff !important;
-                width: 480px;
-            }
-        </style>
-    </head>
+        .button.primary {
+            background-color: #ed4933;
+            box-shadow: none !important;
+            color: #ffffff !important;
+            width: 480px;
+        }
+    </style>
+</head>
 
-    <body class="is-preload">
+<body class="is-preload">
 
-        <!-- Page Wrapper -->
-        <div id="page-wrapper">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
 
-            <!-- Header -->
-            <header id="header">
-                <h1><a href="index.html">牛腩小镇｜NewNan City</a></h1>
-                <nav id="nav">
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">牛腩小镇｜NewNan City</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>菜单</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="index.html">主页</a></li>
+                                <li><a href="基础介绍.html">关于牛腩</a></li>
+                                <li><a href="牛腩法典.html">牛腩法典</a></li>
+                                <li><a href="牛腩史书.html">牛腩史书</a></li>
+                                <li><a href="http://wiki.newnan.city">牛腩百科</a></li>
+                                <li><a href="https://www.newnan.city/Flarum/public/">牛腩论坛</a></li>
+                                <li><a href="https://www.newnan.city/skin/public/">牛腩皮肤站</a></li>
+                                <li><a href="实时地图.html">实时地图</a></li>
+                                <li><a href="牛腩记账本.html"></a>赞助我们</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <article id="main">
+            <header>
+                <h2>非官方客户端配置指南（以HMCL为例）</h2>
+            </header>
+            <section class="wrapper style5">
+                <div class="inner">
+                    <p>
+                        建议使用较新版本的启动器，以避免找不到认证服务器、进不了服务器等问题。
+                    </p>
                     <ul>
-                        <li class="special">
-                            <a href="#menu" class="menuToggle"><span>菜单</span></a>
-                            <div id="menu">
-                                <ul>
-                                    <li><a href="index.html">主页</a></li>
-                                    <li><a href="基础介绍.html">关于牛腩</a></li>
-                                    <li><a href="牛腩法典.html">牛腩法典</a></li>
-                                    <li><a href="牛腩史书.html">牛腩史书</a></li>
-                                    <li><a href="http://wiki.newnan.city">牛腩百科</a></li>
-                                    <li><a href="https://www.newnan.city/Flarum/public/">牛腩论坛</a></li>
-                                    <li><a href="https://www.newnan.city/skin/public/">牛腩皮肤站</a></li>
-                                    <li><a href="实时地图.html">实时地图</a></li>
-                                    <li><a href="牛腩记账本.html"></a>赞助我们</li>
-                                </ul>
-                            </div>
+                        <li>第一步：在启动器中新建游戏帐户，查看登录选项中是否除了“正版登录”、“离线登录”以外，还有“外置登录”或“authlib-injector”的选项。如果有，进入下一步；如果没有，请<a
+                                href="入坑指南.html">回到原教程</a>并使用牛腩小镇提供的客户端或自行下载HMCL等支持外置登录的启动器再继续。</li>
+                    </ul>
+                    <br />
+                    <img src="images/HMCL-Setup.png" alt="Setting Up HMCL Launcher" class="center">
+                    <br />
+                    <ul>
+                        <li>第二步：确定好启动器支持外置登录后，单击加号添加牛腩小镇的认证服务器地址“https://www.newnan.city/skin/public/api/yggdrasil”
                         </li>
                     </ul>
-                </nav>
-            </header>
+                    <blockquote>
+                        <p>注：请检查客户端文件夹内是否有名为“authlib-injectors.json”的文件，如果没有，可能会报错“远程主机强迫关闭了一个现有的连接”。请<a
+                                href="https://pan.baidu.com/s/1N5mk6mmT7Iz5wLxzBO8eAQ">在此下载</a>并添加。（提取码：dpzt）</p>
+                    </blockquote>
+                    <ul>
+                        <li>第三步：填写好用户名及密码，下载游戏（1.14.4）并启动，然后<a href="入坑指南.html">回到原教程</a>第五步继续配置。</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
 
-            <!-- Main -->
-            <article id="main">
-                <header>
-                    <h2>非官方客户端配置指南（以HMCL为例）</h2>
-                </header>
-                <section class="wrapper style5">
-                    <div class="inner">
-                        <p>
-                            建议使用较新版本的启动器，以避免找不到认证服务器、进不了服务器等问题。
-                        </p>
-                        <ul>
-                            <li>第一步：在启动器中新建游戏帐户，查看登录选项中是否除了“正版登录”、“离线登录”以外，还有“外置登录”或“authlib-injector”的选项。如果有，进入下一步；如果没有，请<a
-                                    href="入坑指南.html">回到原教程</a>并使用牛腩小镇提供的客户端或自行下载HMCL等支持外置登录的启动器再继续。</li>
-                        </ul>
-                        <br />
-                        <img src="images/HMCL-Setup.png" alt="Setting Up HMCL Launcher" class="center">
-                        <br />
-                        <ul>
-                            <li>第二步：确定好启动器支持外置登录后，单击加号添加牛腩小镇的认证服务器地址“https://www.newnan.city/skin/public/api/yggdrasil”
-                            </li>
-                        </ul>
-                        <blockquote>
-                            <p>注：请检查客户端文件夹内是否有名为“authlib-injectors.json”的文件，如果没有，可能会报错“远程主机强迫关闭了一个现有的连接”。请<a
-                                    href="https://pan.baidu.com/s/1N5mk6mmT7Iz5wLxzBO8eAQ">在此下载</a>并添加。（提取码：dpzt）</p>
-                        </blockquote>
-                        <ul>
-                            <li>第三步：填写好用户名及密码，下载游戏（1.14.4）并启动，然后<a href="入坑指南.html">回到原教程</a>第五步继续配置。</li>
-                        </ul>
-                    </div>
-                </section>
-            </article>
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://github.com/NewNanCity" class="icon brands fa-github"><span
+                            class="label">GitHub</span></a></li>
+                <li><a href="mailto:newnancity@cubik65536.top" class="icon solid fa-envelope"><span
+                            class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>Copyright &copy; 2020 -
+                    <script>document.write(new Date().getFullYear())</script> NewNan City. All rights reserved.
+                </li>
+                <li>页面模版设计：<a href="http://html5up.net">HTML5 UP</a></li>
+                <li>由<a href="https://www.cubik65536.top/">Cubik65536</a>强力驱动</li>
+                <li>ICP备案号：<a href="http://www.beian.miit.gov.cn/">浙ICP备20009998号</a></li>
+            </ul>
+        </footer>
 
-            <!-- Footer -->
-            <footer id="footer">
-                <ul class="icons">
-                    <li><a href="https://github.com/NewNanCity" class="icon brands fa-github"><span
-                                class="label">GitHub</span></a></li>
-                    <li><a href="mailto:newnancity@cubik65536.top" class="icon solid fa-envelope"><span
-                                class="label">Email</span></a></li>
-                </ul>
-                <ul class="copyright">
-                    <li>Copyright &copy; 2020 NewNan City. All rights reserved.</li>
-                    <li>页面模版设计：<a href="http://html5up.net">HTML5 UP</a></li>
-                    <li>由<a href="https://www.cubik65536.top/">Cubik65536</a>强力驱动</li>
-                    <li>ICP备案号：<a href="http://www.beian.miit.gov.cn/">浙ICP备20009998号</a></li>
-                </ul>
-            </footer>
+    </div>
 
-        </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-
-    </body>
+</body>
 
 </html>
