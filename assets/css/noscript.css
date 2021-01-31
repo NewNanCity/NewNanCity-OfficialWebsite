@@ -7,11 +7,11 @@
 /* Banner */
 
 	body.is-preload #banner h2 {
-		-moz-transform: none;
+		-moz-transform   : none;
 		-webkit-transform: none;
-		-ms-transform: none;
-		transform: none;
-		opacity: 1;
+		-ms-transform    : none;
+		transform        : none;
+		opacity          : 1;
 	}
 
 		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
@@ -19,11 +19,11 @@
 		}
 
 	body.is-preload #banner .more {
-		-moz-transform: none;
+		-moz-transform   : none;
 		-webkit-transform: none;
-		-ms-transform: none;
-		transform: none;
-		opacity: 1;
+		-ms-transform    : none;
+		transform        : none;
+		opacity          : 1;
 	}
 
 	body.is-preload #banner:after {

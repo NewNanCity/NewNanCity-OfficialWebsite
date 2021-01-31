@@ -27,15 +27,15 @@
 	@mixin breakpoint($query: null) {
 
 		$breakpoint: null;
-		$op: null;
-		$media: null;
+		$op        : null;
+		$media     : null;
 
 		// Determine operator, breakpoint.
 
 			// Greater than or equal.
 				@if (str-slice($query, 0, 2) == '>=') {
 
-					$op: 'gte';
+					$op        : 'gte';
 					$breakpoint: str-slice($query, 3);
 
 				}
@@ -43,7 +43,7 @@
 			// Less than or equal.
 				@elseif (str-slice($query, 0, 2) == '<=') {
 
-					$op: 'lte';
+					$op        : 'lte';
 					$breakpoint: str-slice($query, 3);
 
 				}
@@ -51,7 +51,7 @@
 			// Greater than.
 				@elseif (str-slice($query, 0, 1) == '>') {
 
-					$op: 'gt';
+					$op        : 'gt';
 					$breakpoint: str-slice($query, 2);
 
 				}
@@ -59,7 +59,7 @@
 			// Less than.
 				@elseif (str-slice($query, 0, 1) == '<') {
 
-					$op: 'lt';
+					$op        : 'lt';
 					$breakpoint: str-slice($query, 2);
 
 				}
@@ -67,7 +67,7 @@
 			// Not.
 				@elseif (str-slice($query, 0, 1) == '!') {
 
-					$op: 'not';
+					$op        : 'not';
 					$breakpoint: str-slice($query, 2);
 
 				}
@@ -75,7 +75,7 @@
 			// Equal.
 				@else {
 
-					$op: 'eq';
+					$op        : 'eq';
 					$breakpoint: $query;
 
 				}
