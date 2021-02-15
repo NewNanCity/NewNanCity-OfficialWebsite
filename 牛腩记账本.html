@@ -1,210 +1,88 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN" xml:lang="zh-CN">
 
-<head>
-    <title>牛腩记账本 - 牛腩小镇｜NewNan City</title>
-    <link rel="icon" type="image/png" href="images/newnan-web-logo.png" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
-    <link rel="stylesheet" href="assets/css/page.css" />
-</head>
+    <head>
+        <title>牛腩记账本 - 牛腩小镇｜NewNan City</title>
+        <link rel="icon" type="image/png" href="images/newnan-web-logo.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript>
+            <link rel="stylesheet" href="assets/css/noscript.css" />
+        </noscript>
+        <link rel="stylesheet" href="assets/css/page.css" />
+    </head>
 
-<body class="is-preload">
+    <body class="is-preload">
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-        <!-- Header -->
-        <header v-html="header"></header>
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header v-html="header"></header>
 
-        <!-- Main -->
-        <article id="main">
-            <header>
-                <h2>牛腩记账本</h2>
-            </header>
-            <section class="wrapper style5">
-                <div class="inner">
-                    <blockquote>
-                        <p>牛腩服务器是公益服务器，平时用爱发电，欢迎各位赞助！钱无论多少，你的支持就是我们最大的荣幸！如果愿意，请量力而行，5块也可以！本服不是商业服，赞助后不会提供氪金奖励，我们会在此页面鸣谢所有赞助者，并保证资金流向的透明。
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>牛腩记账本</h2>
+                </header>
+                <section class="wrapper style5">
+                    <div class="inner">
+                        <blockquote>
+                            <p>牛腩服务器是公益服务器，平时用爱发电，欢迎各位赞助！钱无论多少，你的支持就是我们最大的荣幸！如果愿意，请量力而行，5块也可以！本服不是商业服，赞助后不会提供氪金奖励，我们会在此页面鸣谢所有赞助者，并保证资金流向的透明。
+                            </p>
+                        </blockquote>
+                        <br />
+                        <p>我们目前提供了支付宝(左)、微信支付(中)和QQ支付(右)三种支付渠道，二维码请点击小图扫码。</p>
+                        <p class="strong">
+                            另：支付时请做好备注(赞助-游戏ID)，毕竟我平时也会用支付宝微信来收钱，会搞混的。然后记得把付款成功的页面私发给Cubik65536，方便更新下面的收支情况。
                         </p>
-                    </blockquote>
-                    <br />
-                    <p>我们目前提供了支付宝(左)、微信支付(中)和QQ支付(右)三种支付渠道，二维码请点击小图扫码。</p>
-                    <p class="strong">
-                        另：支付时请做好备注(赞助-游戏ID)，毕竟我平时也会用支付宝微信来收钱，会搞混的。然后记得把付款成功的页面私发给Cubik65536，方便更新下面的收支情况。
-                    </p>
-                    <p>如果不愿意透露姓名，就写“匿名”吧，感谢。如果发现你的赞助没有列出来，可能是忘记录入了，可以私戳一下Cubik65536。</p>
-                    <br />
-                    <h3>三种支付方式：</h3>
-                    <div
-                        style="width: 100%; display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;">
+                        <p>如果不愿意透露姓名，就写“匿名”吧，感谢。如果发现你的赞助没有列出来，可能是忘记录入了，可以私戳一下Cubik65536。</p>
+                        <br />
+                        <h3>三种支付方式：</h3>
+                        <div
+                            style="width: 100%; display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;">
 
-                        <img style="display:inline-block; width: 300px;"
-                            src="http://cdn.newnan.city//efea7c6cba0425a025ab46906bee8c8c" alt="支付宝二维码" />
-                        <img style="display:inline-block; width: 300px;"
-                            src="http://cdn.newnan.city//49aa60a1454c82a6ce78046be34e814b" alt="微信支付二维码" />
-                        <img style="display:inline-block; width: 300px;"
-                            src="http://cdn.newnan.city//6f89e3183fa5ffe4ee28f3be9d5d2193" alt="QQ支付二维码" />
+                            <img style="display:inline-block; width: 300px;"
+                                src="http://cdn.newnan.city//efea7c6cba0425a025ab46906bee8c8c" alt="支付宝二维码" />
+                            <img style="display:inline-block; width: 300px;"
+                                src="http://cdn.newnan.city//49aa60a1454c82a6ce78046be34e814b" alt="微信支付二维码" />
+                            <img style="display:inline-block; width: 300px;"
+                                src="http://cdn.newnan.city//6f89e3183fa5ffe4ee28f3be9d5d2193" alt="QQ支付二维码" />
+                        </div>
+                        <br /><br /><br />
+                        <h3>以下是每月的收支情况：</h3>
+
+                        <div id="incomes">
+                            <div v-for="month in months">
+                                <h2>{{ month.date }}</h2>
+                                <ul>
+                                    <p>上月结余 ￥{{ month.last }}</p>
+                                    <li v-for="income in month.income">{{ income[0] == null ? '#某个匿名的小可爱#' : income[0]  }} ￥{{ income[1] }}</li>
+                                    <p>开支：￥{{month.cost[0]}} ({{month.cost[1]}})</p>
+                                </ul>
+                            </div>
+                            <br/>
+                        </div>
                     </div>
-                    <br /><br /><br />
-                    <h3>以下是每月的收支情况：</h3>
-                    <h2>2020-02</h2>
-                    <ul>
-                        <li>Kitou_ ￥50</li>
-                        <li>IronGuo ￥40</li>
-                        <li>Martian ￥50</li>
-                        <li>Judy ￥24</li>
-                        开支：￥116.72(从单核2G转到双核4G)
-                    </ul>
-                    <br />
-                    <h2>2020-03</h2>
-                    <ul>
-                        上月结余 ￥47.28
-                        <li>Kitou_ ￥50</li>
-                        <li>Martian ￥50</li>
-                        <li>RainListener7 ￥20</li>
-                        <li>Binggan_owo ￥30</li>
-                        <li>tsukimi ￥20</li>
-                        <li>Judy ￥200</li>
-                        <li>Acam ￥50</li>
-                        <li>LFCF_yu ￥30</li>
-                        开支：￥260(双核4G)
-                    </ul>
-                    <br />
-                    <h2>2020-04</h2>
-                    <ul>
-                        上月结余 ￥237.28
-                        <li>￥50</li>
-                        <li>LFCF_yu ￥50</li>
-                        <li>Sttot ￥80</li>
-                        <li>红石自学八级 ￥260</li>
-                        <li>Martian ￥100</li>
-                        开支：￥260(双核4G)
-                    </ul>
-                    <br />
-                    <h2>2020-05</h2>
-                    <ul>
-                        上月结余 ￥517.28
-                        <li>Sttot ￥380</li>
-                        <li>Sheng_qi ￥30</li>
-                        <li>MatsusitaYuko ￥20</li>
-                        <li>bingogyz ￥50</li>
-                        开支：￥380(幻境云预付两个月-至6月)
-                    </ul>
-                    <br />
-                    <h2>2020-6</h2>
-                    <ul>
-                        上月结余 ￥617.28
-                        <li>Sttot ￥410</li>
-                        <li>Martian ￥300</li>
-                        <li>MatsusitaYoku ￥20</li>
-                        <li>RainListener7 ￥20</li>
-                        <li>Yi_LiXi ￥50</li>
-                        <li>cornelia_318 ￥50</li>
-                        <li>CC￥50</li>
-                        开支：￥410(幻境云服务器升级(i9(5GHz) 6核8G)+购买一些正版插件)
-                    </ul>
-                    <br />
-                    <h2>2020-7</h2>
-                    <ul>
-                        上月结余 ￥1107.28
-                        <li>匿名 ￥23.33</li>
-                        <li>MatsusitaYoku ￥20</li>
-                        <li>CursoR_2333￥4.14</li>
-                        <li>Hooyah￥50</li>
-                        开支：￥500(幻境云服务器升级(i9(5GHz) 6核8G))
-                    </ul>
-                    <br />
-                    <h2>2020-8</h2>
-                    <ul>
-                        上月结余 ￥704.75
-                        <li>WUTONG￥30</li>
-                        <li>blacklight￥20</li>
-                        <li>匿名￥50</li>
-                        <li>CC￥52.25</li>
-                        <li>Martian￥200</li>
-                        <li>TANGHAHA￥30</li>
-                        开支：￥500(幻境云服务器升级(i9(5GHz) 6核8G))
-                    </ul>
-                    <br />
-                    <h2>2020-9</h2>
-                    <ul>
-                        上月结余 ￥587
-                        <li>Martian￥300</li>
-                        <li>默默然￥100</li>
-                        <li>WUTONG￥5</li>
-                        开支：￥500(幻境云服务器升级(i9(5GHz) 6核8G))
-                    </ul>
-                    <br />
-                    <h2>2020-10</h2>
-                    <ul>
-                        上月结余 ￥492
-                        <li>WUTONG￥25.23</li>
-                        <li>Judy￥100</li>
-                        <li>Cubik65536 ￥9.2</li>
-                        <li>quenton1225 ￥58</li>
-                        开支：￥500(幻境云服务器升级(i9(5GHz) 6核8G))
-                    </ul>
-                    <br />
-                    <h2>2020-11</h2>
-                    <ul>
-                        上月结余 ￥184.43
-                        <li>Martian￥200</li>
-                        <li>quenton1225 ￥174</li>
-                        <li>罗格斯 ￥100</li>
-                        <li>Cubik65536 ￥6.61</li>
-                        <li>[未知] ￥6.66</li>
-                        <li>[未知] ￥58</li>
-                        <li>默默然 ￥100</li>
-                        开支：￥500(幻境云服务器(i9(5GHz) 6核8G))
-                    </ul>
-                    <br />
-                    <h2>2020-12</h2>
-                    <ul>
-                        上月结余 ￥429.7
-                        <li>charon ￥520</li>
-                        <li>Martian ￥200</li>
-                        开支：￥500(幻境云服务器(AMD5950X 6核10G))
-                    </ul>
-                    <br />
-                    <h2>2021-1</h2>
-                    <ul>
-                        上月结余 ￥649.7
-                        <li>罗格斯 ￥100</li>
-                        <li>YouZhaGui ￥10</li>
-                        <li>pencil ￥23.33</li>
-                        <li>Ryzen_ ￥18.88</li>
-                        开支：￥500(幻境云服务器(AMD5950X 6核10G))
-                    </ul>
-                    <br />
-                    <h2>2021-2</h2>
-                    <ul>
-                        上月结余 ￥301.91
-                        <li>WilliamDragon ￥12</li>
-                        开支：￥500(幻境云服务器(AMD5950X 6核10G))
-                    </ul>
-                </div>
-            </section>
-        </article>
+                </section>
+            </article>
 
-        <!-- Footer -->
-        <footer v-html="footer"></footer>
-    </div>
+            <!-- Footer -->
+            <footer v-html="footer"></footer>
+        </div>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="assets/js/vue_page.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="assets/js/donation.js"></script>
+        <script src="assets/js/vue_page.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
 
-</body>
+    </body>
 
 </html>

@@ -39,7 +39,7 @@ var footer = new Vue({
         qqGroupLink: 'https://jq.qq.com/?_wv=1027&k=oOaVyeRX',
         githubLink : 'https://github.com/NewNanCity',
         mailTo     : 'newnancity@cubik65536.top',
-        ICP_ID     : '浙ICP备20009998号'
+        ICP_ID     : '浙ICP备 20009998号'
     }
 });
 
