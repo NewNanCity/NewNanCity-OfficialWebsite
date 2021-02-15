@@ -1,10 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="zh-CN" xml:lang="zh-CN">
 
 <head>
     <title>牛腩小镇｜NewNan City</title>
@@ -35,19 +30,7 @@
                 <ul>
                     <li class="special">
                         <a href="#menu" class="menuToggle"><span>菜单</span></a>
-                        <div id="menu">
-                            <ul>
-                                <li><a href="index.html">主页</a></li>
-                                <li><a href="基础介绍.html">关于牛腩</a></li>
-                                <li><a href="牛腩法典.html">牛腩法典</a></li>
-                                <li><a href="牛腩史书.html">牛腩史书</a></li>
-                                <li><a href="http://wiki.newnan.city">牛腩百科</a></li>
-                                <li><a href="https://www.newnan.city/Flarum/public/">牛腩论坛</a></li>
-                                <li><a href="https://www.newnan.city/skin/public/">牛腩皮肤站</a></li>
-                                <li><a href="实时地图.html">实时地图</a></li>
-                                <li><a href="牛腩记账本.html">赞助我们</a></li>
-                            </ul>
-                        </div>
+                        <div id="menu"><ul><li v-for="url in urls"><a :href="url.url">{{ url.title }}</a></li></ul></div>
                     </li>
                 </ul>
             </nav>
@@ -114,26 +97,12 @@
         </section>
 
         <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-                <li><a href="https://github.com/NewNanCity" class="icon brands fa-github"><span
-                            class="label">GitHub</span></a></li>
-                <li><a href="mailto:newnancity@cubik65536.top" class="icon solid fa-envelope"><span
-                            class="label">Email</span></a></li>
-            </ul>
-            <ul class="copyright">
-                <li>Copyright &copy; 2020 -
-                    <script>document.write(new Date().getFullYear())</script> NewNan City. All rights reserved.
-                </li>
-                <li>页面模版设计：<a href="http://html5up.net">HTML5 UP</a></li>
-                <li>由<a href="https://www.cubik65536.top/">Cubik65536</a>强力驱动</li>
-                <li>ICP备案号：<a href="http://www.beian.miit.gov.cn/">浙ICP备20009998号</a></li>
-            </ul>
-        </footer>
-
+        <footer v-html="footer"></footer>
     </div>
 
     <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="assets/js/vue_page.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
@@ -143,5 +112,4 @@
     <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
