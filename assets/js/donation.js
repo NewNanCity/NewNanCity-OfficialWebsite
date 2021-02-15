@@ -1,3 +1,5 @@
+/* Powered by Sttot, 2021-2-15 14:44:20 */
+
 var donationList = [{
         date  : '2020-2',
         income: [
@@ -131,7 +133,8 @@ var donationList = [{
     {
         date  : '2021-2',
         income: [
-            ['WilliamDragon', 12]
+            ['WilliamDragon', 12],
+            ['WUTONG', 20]
         ],
         cost: [500, '配置同上月']
     }
