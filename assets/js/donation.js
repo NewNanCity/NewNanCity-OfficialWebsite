@@ -22,7 +22,7 @@ var donationList = [{
             ['Acam', 50],
             ['LFCF_yu', 30]
         ],
-        cost: [260, '配置同上月']
+        cost: [260, null]
     },
     {
         date  : '2020-4',
@@ -33,7 +33,7 @@ var donationList = [{
             ['红石自学八级', 260],
             ['Martian', 100]
         ],
-        cost: [260, '配置同上月']
+        cost: [260, null]
     },
     {
         date  : '2020-5',
@@ -66,7 +66,7 @@ var donationList = [{
             ['CursoR_2333', 4.14],
             ['Hooyah', 50]
         ],
-        cost: [500, '配置同上月']
+        cost: [500, null]
     },
     {
         date  : '2020-8',
@@ -78,7 +78,7 @@ var donationList = [{
             ['Martian', 200],
             ['TANGHAHA', 30]
         ],
-        cost: [500, '配置同上月']
+        cost: [500, null]
     },
     {
         date  : '2020-9',
@@ -87,7 +87,7 @@ var donationList = [{
             ['默默然', 100],
             ['WUTONG', 5]
         ],
-        cost: [500, '配置同上月']
+        cost: [500, null]
     },
     {
         date  : '2020-10',
@@ -97,7 +97,7 @@ var donationList = [{
             ['Cubik65536', 9.2],
             ['quenton1225', 58]
         ],
-        cost: [500, '配置同上月']
+        cost: [500, null]
     },
     {
         date  : '2020-11',
@@ -110,7 +110,7 @@ var donationList = [{
             [null, 58],
             ['默默然', 100]
         ],
-        cost: [500, '配置同上月']
+        cost: [500, null]
     },
     {
         date  : '2020-12',
@@ -128,15 +128,18 @@ var donationList = [{
             ['pencil', 23.33],
             ['Ryzen_', 18.88]
         ],
-        cost: [500, '配置同上月']
+        cost: [400, '预付打八折']
     },
     {
         date  : '2021-2',
         income: [
             ['WilliamDragon', 12],
-            ['WUTONG', 20]
+            ['WUTONG', 20],
+            ['Judy', 11.4],
+            [null, 10],
+            ['OGODANIX', 13]
         ],
-        cost: [500, '配置同上月']
+        cost: [400, null]
     }
 ];
 
