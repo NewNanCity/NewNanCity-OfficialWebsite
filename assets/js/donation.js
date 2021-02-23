@@ -137,7 +137,8 @@ var donationList = [{
             ['WUTONG', 20],
             ['Judy', 11.4],
             [null, 10],
-            ['OGODANIX', 13]
+            ['OGODANIX', 13],
+            ['Martian', 200]
         ],
         cost: [400, null]
     }
