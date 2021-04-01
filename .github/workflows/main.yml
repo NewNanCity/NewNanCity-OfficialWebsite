@@ -1,15 +1,15 @@
 name: Gitee Mirror Action
 
 on:
+  push:
+    paths:
+    - '.github/workflows/**'
+    branches: [ master ]
   pull_request:
     paths:
     - '.github/workflows/**'
-    # Runs at every pull requests submitted in master branch 
     branches: [ master ]
-  schedule:
-    # Runs at 01:00 UTC (9:00 AM Beijing) every day
-    - cron:  '0 1 * * *'
-
+    
 jobs:
   build:
 
