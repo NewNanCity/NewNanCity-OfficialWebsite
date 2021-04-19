@@ -50,7 +50,7 @@ var header = new Vue({
         urls : [
             { url: './index.html', title: '主页' },
             { url: './基础介绍.html', title: '关于牛腩' },
-            { url: 'http://wiki.newnan.city/2052170', title: '牛腩法典' },
+            { url: 'http://wiki.newnan.city/2237522', title: '牛腩法典' },
             { url: 'https://docs.qq.com/doc/DUGFObHVabWFNSFNM', title: '牛腩史书' },
             { url: 'http://wiki.newnan.city', title: '牛腩百科' },
             { url: 'https://forum.newnan.city/', title: '牛腩论坛' },
