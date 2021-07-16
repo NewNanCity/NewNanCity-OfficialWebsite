@@ -25,7 +25,7 @@ var footerHTML = '<footer id="footer">\n' +
     '</footer>';
 
 var page = new Vue({
-    el  : '#page-wrapper',
+    el: '#page-wrapper',
     data: {
         header: headerHTML,
         footer: footerHTML
@@ -33,30 +33,56 @@ var page = new Vue({
 });
 
 var footer = new Vue({
-    el  : '#footer',
+    el: '#footer',
     data: {
-        thisYear   : new Date().getFullYear(),
+        thisYear: new Date().getFullYear(),
         qqGroupLink: 'https://jq.qq.com/?_wv=1027&k=oOaVyeRX',
-        githubLink : 'https://github.com/NewNanCity',
-        mailTo     : 'newnancity@cubik65536.top',
-        ICP_ID     : '浙ICP备 20009998号'
+        githubLink: 'https://github.com/NewNanCity',
+        mailTo: 'newnancity@cubik65536.top',
+        ICP_ID: '浙ICP备 20009998号'
     }
 });
 
 var header = new Vue({
-    el  : '#header',
+    el: '#header',
     data: {
         title: '牛腩小镇｜NewNan City',
-        urls : [
-            { url: './index.html', title: '主页' },
-            { url: './基础介绍.html', title: '关于牛腩' },
-            { url: 'http://wiki.newnan.city/2237522', title: '牛腩法典' },
-            { url: 'https://docs.qq.com/doc/DUGFObHVabWFNSFNM', title: '牛腩史书' },
-            { url: 'http://wiki.newnan.city', title: '牛腩百科' },
-            { url: 'https://forum.newnan.city/', title: '牛腩论坛' },
-            { url: 'https://skin.newnan.city/', title: '牛腩皮肤站' },
-            { url: 'http://map.newnan.city/', title: '实时地图' },
-            { url: './牛腩记账本.html', title: '赞助我们' }
+        urls: [{
+                url: 'https://sttot.notion.site/NewNanCity-5f71054def3c4de1a8f3798d0dda5e50',
+                title: '牛腩主页'
+            },
+            {
+                url: './基础介绍.html',
+                title: '关于牛腩'
+            },
+            {
+                url: 'https://sttot.notion.site/595abf31063d47e0909518b6b63a4f51',
+                title: '牛腩法典'
+            },
+            {
+                url: 'https://docs.qq.com/doc/DUGFObHVabWFNSFNM',
+                title: '牛腩史书'
+            },
+            {
+                url: 'http://wiki.newnan.city',
+                title: '牛腩百科'
+            },
+            {
+                url: 'https://forum.newnan.city/',
+                title: '牛腩论坛'
+            },
+            {
+                url: 'https://skin.newnan.city/',
+                title: '牛腩皮肤站'
+            },
+            {
+                url: 'http://map.newnan.city/',
+                title: '实时地图'
+            },
+            {
+                url: './牛腩记账本.html',
+                title: '赞助我们'
+            }
         ]
     }
 });
