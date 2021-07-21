@@ -147,30 +147,31 @@ var donationList = [{
         income: [
             ['WilliamDragon', 13],
             [null, 12.77],
-            ['腐竹', 205.92]
+            ['Sttot', 205.92]
         ],
         cost: [400, null]
     },
     {
         date: '2021-5',
         income: [
-            ['腐竹', 200]
+            ['Sttot', 200]
         ],
         cost: [200, null]
     },
     {
         date: '2021-6',
         income: [
-            ['腐竹', 200]
+            ['Sttot', 200]
         ],
         cost: [200, null]
     },
     {
         date: '2021-7',
         income: [
-            ['腐竹', 200],
+            ['Sttot', 200],
             ['zhq', 5],
-            ['TANGHAHA', 76.3]
+            ['TANGHAHA', 76.3],
+            ['Martian', 200]
         ],
         cost: [200, null],
     }
