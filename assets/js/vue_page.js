@@ -72,7 +72,7 @@ var header = new Vue({
                 title: '实时地图'
             },
             {
-                url: 'https://www.notion.so/sttot/8cecbb09e3c54ded866559c5996b3f0b',
+                url: 'https://sttot.notion.site/8cecbb09e3c54ded866559c5996b3f0b',
                 title: '赞助我们'
             }
         ]
