@@ -168,16 +168,11 @@ var donationList = [{
     {
         date: '2021-7',
         income: [
-            ['腐竹', 200]
+            ['腐竹', 200],
+            ['zhq', 5],
+            ['TANGHAHA', 76.3]
         ],
-        cost: [200, null]
-    },
-    {
-        date: '2021-8',
-        income: [
-            ['腐竹', 200]
-        ],
-        cost: [200, null]
+        cost: [200, null],
     }
 ];
 
