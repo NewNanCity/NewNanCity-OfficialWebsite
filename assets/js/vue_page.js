@@ -48,12 +48,8 @@ var header = new Vue({
     data: {
         title: '牛腩小镇｜NewNan City',
         urls: [{
-                url: 'https://sttot.notion.site/NewNanCity-5f71054def3c4de1a8f3798d0dda5e50',
-                title: '牛腩主页'
-            },
-            {
-                url: './基础介绍.html',
-                title: '关于牛腩'
+                url: 'https://wiki.newnan.city',
+                title: '牛腩百科'
             },
             {
                 url: 'https://sttot.notion.site/595abf31063d47e0909518b6b63a4f51',
@@ -62,10 +58,6 @@ var header = new Vue({
             {
                 url: 'https://docs.qq.com/doc/DUGFObHVabWFNSFNM',
                 title: '牛腩史书'
-            },
-            {
-                url: 'http://wiki.newnan.city',
-                title: '牛腩百科'
             },
             {
                 url: 'https://forum.newnan.city/',
@@ -80,7 +72,7 @@ var header = new Vue({
                 title: '实时地图'
             },
             {
-                url: './牛腩记账本.html',
+                url: 'https://www.notion.so/sttot/8cecbb09e3c54ded866559c5996b3f0b',
                 title: '赞助我们'
             }
         ]
