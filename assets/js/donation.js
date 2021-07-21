@@ -1,7 +1,7 @@
 /* Powered by Sttot, 2021-2-15 14:44:20 */
 
 var donationList = [{
-        date  : '2020-2',
+        date: '2020-2',
         income: [
             ['Kitou_', 50],
             ['IronGuo', 40],
@@ -11,7 +11,7 @@ var donationList = [{
         cost: [116.72, '从单核2G转到双核4G']
     },
     {
-        date  : '2020-3',
+        date: '2020-3',
         income: [
             ['Kitou_', 50],
             ['Martian', 50],
@@ -25,7 +25,7 @@ var donationList = [{
         cost: [260, null]
     },
     {
-        date  : '2020-4',
+        date: '2020-4',
         income: [
             [null, 50],
             ['LFCF_yu', 50],
@@ -36,7 +36,7 @@ var donationList = [{
         cost: [260, null]
     },
     {
-        date  : '2020-5',
+        date: '2020-5',
         income: [
             ['Sttot', 380],
             ['Sheng_qi', 30],
@@ -46,7 +46,7 @@ var donationList = [{
         cost: [380, '幻境云预付两个月-至6月']
     },
     {
-        date  : '2020-6',
+        date: '2020-6',
         income: [
             ['Sttot', 410],
             ['Martian', 300],
@@ -59,7 +59,7 @@ var donationList = [{
         cost: [410, '(幻境云服务器升级(i9, 5GHz) 6核8G)+购买一些正版插件']
     },
     {
-        date  : '2020-7',
+        date: '2020-7',
         income: [
             [null, 23.33],
             ['MatsusitaYoku', 20],
@@ -69,7 +69,7 @@ var donationList = [{
         cost: [500, null]
     },
     {
-        date  : '2020-8',
+        date: '2020-8',
         income: [
             ['WUTONG', 30],
             ['blacklight', 20],
@@ -81,7 +81,7 @@ var donationList = [{
         cost: [500, null]
     },
     {
-        date  : '2020-9',
+        date: '2020-9',
         income: [
             ['Martian', 300],
             ['默默然', 100],
@@ -90,7 +90,7 @@ var donationList = [{
         cost: [500, null]
     },
     {
-        date  : '2020-10',
+        date: '2020-10',
         income: [
             ['WUTONG', 25.23],
             ['Judy', 100],
@@ -100,7 +100,7 @@ var donationList = [{
         cost: [500, null]
     },
     {
-        date  : '2020-11',
+        date: '2020-11',
         income: [
             ['Martian', 200],
             ['quenton1225', 174],
@@ -113,7 +113,7 @@ var donationList = [{
         cost: [500, null]
     },
     {
-        date  : '2020-12',
+        date: '2020-12',
         income: [
             ['Charon', 520],
             ['Martian', 200]
@@ -121,7 +121,7 @@ var donationList = [{
         cost: [500, '幻境云服务器升级(AMD Ryzen 5950X 6核10G)']
     },
     {
-        date  : '2021-1',
+        date: '2021-1',
         income: [
             ['罗格斯', 100],
             ['YouZhaGui', 10],
@@ -131,7 +131,7 @@ var donationList = [{
         cost: [400, '预付打八折']
     },
     {
-        date  : '2021-2',
+        date: '2021-2',
         income: [
             ['WilliamDragon', 12],
             ['WUTONG', 20],
@@ -143,17 +143,46 @@ var donationList = [{
         cost: [400, null]
     },
     {
-        date  : '2021-4',
+        date: '2021-4',
         income: [
             ['WilliamDragon', 13],
-            [null, 12.77]
+            [null, 12.77],
+            ['腐竹', 205.92]
         ],
         cost: [400, null]
+    },
+    {
+        date: '2021-5',
+        income: [
+            ['腐竹', 200]
+        ],
+        cost: [200, null]
+    },
+    {
+        date: '2021-6',
+        income: [
+            ['腐竹', 200]
+        ],
+        cost: [200, null]
+    },
+    {
+        date: '2021-7',
+        income: [
+            ['腐竹', 200]
+        ],
+        cost: [200, null]
+    },
+    {
+        date: '2021-8',
+        income: [
+            ['腐竹', 200]
+        ],
+        cost: [200, null]
     }
 ];
 
 var last = 0.0;
-for(var i = 0, ilen = donationList.length; i < ilen; i++) {
+for (var i = 0, ilen = donationList.length; i < ilen; i++) {
     donationList[i].last = last.toFixed(2);
     for (var j = 0, jlen = donationList[i].income.length; j < jlen; j++) {
         last += donationList[i].income[j][1];
@@ -162,7 +191,7 @@ for(var i = 0, ilen = donationList.length; i < ilen; i++) {
 }
 
 var incomes = new Vue({
-    el  : '#incomes',
+    el: '#incomes',
     data: {
         months: donationList
     }
