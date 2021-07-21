@@ -1,88 +1,43 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN" xml:lang="zh-CN">
 
-    <head>
-        <title>牛腩记账本 - 牛腩小镇｜NewNan City</title>
-        <link rel="icon" type="image/png" href="images/newnan-web-logo.png" />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <noscript>
-            <link rel="stylesheet" href="assets/css/noscript.css" />
-        </noscript>
-        <link rel="stylesheet" href="assets/css/page.css" />
-    </head>
+<head>
+    <title>牛腩记账本 - 牛腩小镇｜NewNan City</title>
+    <link rel="icon" type="image/png" href="images/newnan-web-logo.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="stylesheet" href="assets/css/page.css" />
+</head>
 
-    <body class="is-preload">
+<body class="is-preload">
 
-        <!-- Page Wrapper -->
-        <div id="page-wrapper">
-            <!-- Header -->
-            <header v-html="header"></header>
-
-            <!-- Main -->
-            <article id="main">
-                <header>
-                    <h2>牛腩记账本</h2>
-                </header>
-                <section class="wrapper style5">
-                    <div class="inner">
-                        <blockquote>
-                            <p>牛腩服务器是公益服务器，平时用爱发电，欢迎各位赞助！钱无论多少，你的支持就是我们最大的荣幸！如果愿意，请量力而行，5块也可以！本服不是商业服，赞助后不会提供氪金奖励，我们会在此页面鸣谢所有赞助者，并保证资金流向的透明。
-                            </p>
-                        </blockquote>
-                        <br />
-                        <p>我们目前提供了支付宝(左)、微信支付(中)和QQ支付(右)三种支付渠道，二维码请点击小图扫码。</p>
-                        <p class="strong">
-                            另：支付时请做好备注(赞助-游戏ID)，毕竟我平时也会用支付宝微信来收钱，会搞混的。然后记得把付款成功的页面私发给Cubik65536，方便更新下面的收支情况。
-                        </p>
-                        <p>如果不愿意透露姓名，就写“匿名”吧，感谢。如果发现你的赞助没有列出来，可能是忘记录入了，可以私戳一下Cubik65536。</p>
-                        <br />
-                        <h3>三种支付方式：</h3>
-                        <div
-                            style="width: 100%; display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;">
-
-                            <img style="display:inline-block; width: 300px;"
-                                src="http://cdn.newnan.city/efea7c6cba0425a025ab46906bee8c8c" alt="支付宝二维码" />
-                            <img style="display:inline-block; width: 300px;"
-                                src="http://cdn.newnan.city/49aa60a1454c82a6ce78046be34e814b" alt="微信支付二维码" />
-                            <img style="display:inline-block; width: 300px;"
-                                src="http://cdn.newnan.city/6f89e3183fa5ffe4ee28f3be9d5d2193" alt="QQ支付二维码" />
-                        </div>
-                        <br /><br /><br />
-                        <h3>以下是每月的收支情况：</h3>
-
-                        <div id="incomes">
-                            <div v-for="month in months">
-                                <h2>{{ month.date }}</h2>
-                                <ul>
-                                    <p>上月结余 ￥{{ month.last }}</p>
-                                    <li v-for="income in month.income">{{ income[0] == null ? '#某个匿名的小可爱#' : income[0] }} ￥{{ income[1] }}</li>
-                                    <p>开支：￥{{month.cost[0]}} ({{month.cost[1] == null ? '配置同上月' : month.cost[1]}})</p>
-                                </ul>
-                            </div>
-                            <br/>
-                        </div>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper" style="padding-top: 0 !important;">
+        <section class="wrapper style5" style="padding: 0 !important;">
+            <div class="inner">
+                <div id="incomes">
+                    <div v-for="month in months">
+                        <h2>{{ month.date }}</h2>
+                        <ul>
+                            <p>上月结余 ￥{{ month.last }}</p>
+                            <li v-for="income in month.income">{{ income[0] == null ? '#某个匿名的小可爱#' : income[0] }} ￥{{ income[1] }}</li>
+                            <p>开支：￥{{month.cost[0]}} ({{month.cost[1] == null ? '配置同上月' : month.cost[1]}})</p>
+                        </ul>
                     </div>
-                </section>
-            </article>
+                    <br />
+                </div>
+            </div>
+        </section>
+    </div>
 
-            <!-- Footer -->
-            <footer v-html="footer"></footer>
-        </div>
-
-        <!-- Scripts -->
-        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-        <script src="assets/js/donation.js"></script>
-        <script src="assets/js/vue_page.js"></script>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-
-    </body>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="assets/js/donation.js"></script>
+    <script src="assets/js/vue_page.js"></script>
+</body>
 
 </html>
