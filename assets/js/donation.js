@@ -168,7 +168,6 @@ var donationList = [{
     {
         date: '2021-7',
         income: [
-            ['Sttot', 200],
             ['zhq', 5],
             ['TANGHAHA', 76.3],
             ['Martian', 200]
