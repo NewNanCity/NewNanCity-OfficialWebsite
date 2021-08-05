@@ -31,7 +31,8 @@ var donationList = [{
             ['LFCF_yu', 50],
             ['Sttot', 80],
             ['红石自学八级', 260],
-            ['Martian', 100]
+            ['Martian', 100],
+            ['Cubik65536', 67.77]
         ],
         cost: [260, null]
     },
