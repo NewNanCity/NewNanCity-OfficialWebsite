@@ -20,7 +20,7 @@ var footerHTML = '<footer id="footer">\n' +
     '        <li>Copyright &copy; 2020 - {{thisYear}} NewNanCity. All rights reserved.</li>\n' +
     '        <li>页面模版设计：<a href="http://html5up.net">HTML5 UP</a></li>\n' +
     '        <li>由<a href="https://blog.cubik65536.top/">Cubik65536</a> & <a href="https://github.com/Gk0Wk">Sttot</a>强力驱动</li>\n' +
-    '        <li>ICP备案号：<a href="http://www.beian.miit.gov.cn/">{{ICP_ID}}</a></li>\n' +
+    '        <li>备案号：<a href="https://beian.miit.gov.cn/" target="_blank">{{ICP_ID}}</a></li>\n' +
     '    </ul>\n' +
     '</footer>';
 
@@ -39,7 +39,7 @@ var footer = new Vue({
         qqGroupLink: 'https://jq.qq.com/?_wv=1027&k=oOaVyeRX',
         githubLink: 'https://github.com/NewNanCity',
         mailTo: 'newnancity@cubik65536.top',
-        ICP_ID: '浙ICP备 20009998号'
+        ICP_ID: '浙ICP备20009998号-1'
     }
 });
 
