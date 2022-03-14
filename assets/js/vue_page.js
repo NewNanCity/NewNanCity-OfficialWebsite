@@ -73,7 +73,7 @@ buildOnce(function () {
         urls: [
           {
             url: "https://wiki.newnan.city",
-            title: "牛腩百科",
+            title: "牛腩主页",
           },
           {
             url: "https://sttot.notion.site/595abf31063d47e0909518b6b63a4f51",
