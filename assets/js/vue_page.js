@@ -76,7 +76,7 @@ buildOnce(function () {
             title: "牛腩主页",
           },
           {
-            url: "https://sttot.notion.site/595abf31063d47e0909518b6b63a4f51",
+            url: "https://www.wolai.com/newnan/777czodMK18Zv6hdy2b8jm",
             title: "牛腩法典",
           },
           {
@@ -96,7 +96,7 @@ buildOnce(function () {
             title: "实时地图",
           },
           {
-            url: "https://sttot.notion.site/8cecbb09e3c54ded866559c5996b3f0b",
+            url: "https://www.wolai.com/newnan/jjrRipUsK76KDaAe4uRwBS",
             title: "赞助我们",
           },
         ],
